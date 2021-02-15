@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./profile.style.client.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <title>Profile</title>
 </head>
@@ -9,11 +10,9 @@
     <div class="container">
         <h1>Profile</h1>
 
-        <div class="alert alert-success" role="alert">
-            A simple success alert—check it out!
-        </div>
-        <div class="alert alert-danger" role="alert">
-            A simple danger alert—check it out!
+        <div id = "demo" class="alert alert-success" role="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            Profile successfully changed
         </div>
 
         <div class="mb-3 row">
@@ -85,9 +84,26 @@
         </div>
 
         <div class="mb-3 row">
-            <labe class="col-sm-2 col-form-label">
+            <label class="col-sm-2 col-form-label">
 
-            </labe>
+            </label>
+            <div class="col-sm-10">
+                <a class="btn btn-success btn-block">
+                    Update
+                </a>
+            </div>
+        </div>
+        <!--<script>
+function myfn() {
+    document.getElementById("t").style.color = "red";
+}
+</script>-->
+
+
+        <div class="mb-3 row">
+            <label class="col-sm-2 col-form-label">
+
+            </label>
             <div class="col-sm-10">
                 <a class="btn btn-danger btn-block"
                    href="../index.html">
@@ -95,6 +111,7 @@
                 </a>
             </div>
         </div>
+
     </div>
 </body>
 </html>
