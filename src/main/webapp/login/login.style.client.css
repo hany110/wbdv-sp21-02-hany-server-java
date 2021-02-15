@@ -1,3 +1,21 @@
-.color-red {
+.c-b {
     color:blue;
+}
+
+.c-r {
+    color:red;
+}
+.c-g {
+    color:green;
+}
+.c-o {
+    color:orange;
+}
+
+.right {
+       text-align:right;
+}
+
+.center{
+text-align:center;
 }
