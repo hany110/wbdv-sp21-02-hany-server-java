@@ -1,6 +1,7 @@
 h1 {
-    background-color: red;
-    color: yellow;
+    background-color: brown;
+    color: white;
+    font-style: italic;
 }
 
 #table-rows {
@@ -15,14 +16,14 @@ h1 {
 .wbdv-hidden{
     display: none;
 }
+
 .table-border{
     border-style: solid;
-    border-width: thin;
     border-radius: 5px;
-    border-color: grey;
 }
-.table-header-css{
-    color: white;
+
+.table-header{
+    color: grey;
     background-color: #28a745;
 }
 
