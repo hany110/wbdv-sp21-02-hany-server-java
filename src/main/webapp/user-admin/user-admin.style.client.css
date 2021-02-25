@@ -1,0 +1,31 @@
+h1 {
+    background-color: red;
+    color: yellow;
+}
+
+#table-rows {
+    background-color: cyan;
+}
+
+.jga-create-btn {
+    background-color: green;
+    color: white;
+}
+
+.wbdv-hidden{
+    display: none;
+}
+.table-border{
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: grey;
+}
+.table-header-css{
+    color: white;
+    background-color: #28a745;
+}
+
+.displaypassword{
+    -webkit-text-security: circle;
+}
