@@ -1,6 +1,12 @@
 package com.example.wbdvsp2102hanyserverjava.models;
+import javax.persistence.*;
 
+@Entity
+@Table(name="widgets")
 public class Widget {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String type;
     private Integer size;
@@ -15,6 +21,24 @@ public class Widget {
     private String cssClass;
     private String style;
     private String value;
+    private Boolean ordered;
+    private String src;
+
+    public void setOrdered(Boolean ordered) {
+        this.ordered = ordered;
+    }
+
+    public void setSrc(String src) {
+        this.src = src;
+    }
+
+    public Boolean getOrdered() {
+        return ordered;
+    }
+
+    public String getSrc() {
+        return src;
+    }
 
     public Integer getWidgetOrder() {
         return widgetOrder;
